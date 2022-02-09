@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "php bin/console server:run"
+    "start": "symfony server:start"
   },
   "repository": {
     "type": "git",
