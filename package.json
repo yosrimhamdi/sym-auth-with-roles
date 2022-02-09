@@ -1,0 +1,20 @@
+{
+  "name": "sym-auth-with-roles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "php bin/console server:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosrimhamdi/sym-auth-with-roles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yosrimhamdi/sym-auth-with-roles/issues"
+  },
+  "homepage": "https://github.com/yosrimhamdi/sym-auth-with-roles#readme"
+}
