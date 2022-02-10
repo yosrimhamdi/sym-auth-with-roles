@@ -20,7 +20,7 @@ class AppFixtures extends Fixture
     {
         $superAdminUser = new User();
         $superAdminUser
-            ->setEmail('yosri@cosavostra.com')
+            ->setEmail('admin@admin.com')
             ->setPassword(
                 $this->hasher->hashPassword($superAdminUser, 'password')
             )
@@ -28,7 +28,7 @@ class AppFixtures extends Fixture
 
         $user = new User();
         $user
-            ->setEmail('user@company.com')
+            ->setEmail('user@user.com')
             ->setPassword(
                 $this->hasher->hashPassword($superAdminUser, 'password')
             );
